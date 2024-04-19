@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RocketTab" parent="Widget.Material3.TabLayout">
+        <item name="tabTextColor">@color/gray</item>
+        <item name="tabSelectedTextColor">@color/red</item>
+        <item name="tabIndicator">@color/transparent</item>
+        <item name="tabTextAppearance">@style/Text.Tabs</item>
+        <item name="tabSelectedTextAppearance">@style/Text.Tabs.Selected</item>
+    </style>
+</resources>

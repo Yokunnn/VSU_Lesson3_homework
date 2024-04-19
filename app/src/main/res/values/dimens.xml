@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tabHeight">100dp</dimen>
+    <dimen name="rocketCardHeight">128dp</dimen>
+    <dimen name="rocket_imageview_size">84dp</dimen>
+    <dimen name="rocket_card_padding">20dp</dimen>
+    <dimen name="fragment_padding_sides">24dp</dimen>
+    <dimen name="gap_topic_info">12dp</dimen>
+    <dimen name="gap_topics">24dp</dimen>
+</resources>

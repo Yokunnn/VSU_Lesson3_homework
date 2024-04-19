@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">VSU_Lesson3_homework</string>
+    <string name="title_text">SpaceX</string>
+    <string name="tab_upcoming">Upcoming</string>
+    <string name="tab_launches">Launches</string>
+    <string name="tab_rockets">Rockets</string>
+    <string name="topic_launch">Launch</string>
+    <string name="topic_launch_date">Launch date</string>
+    <string name="info_launch_date">Thu Oct 17 5:30:00 2019</string>
+    <string name="info_launch_site">Cape Canaveral Air Force Station Space Launch Complex 40</string>
+    <string name="topic_launch_site">Launch site</string>
+    <string name="topic_count_down">Count down</string>
+    <string name="info_count_down">5 Hrs 30mins more…</string>
+    <string name="topic_rocket">Rocket</string>
+</resources>

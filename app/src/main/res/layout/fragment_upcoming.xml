@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/fragment_padding_sides"
+    android:paddingEnd="@dimen/fragment_padding_sides"
+    tools:context=".fragments.UpcomingFragment">
+
+    <include
+        android:id="@+id/rocketCard"
+        layout="@layout/rocket_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/launchDateTopicTv"
+        style="@style/Text.TopicName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="@string/topic_launch_date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rocketCard" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/launchDateInfoTv"
+        style="@style/Text.TopicInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_topic_info"
+        android:text="@string/info_launch_date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/launchDateTopicTv" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/launchSiteTopicTv"
+        style="@style/Text.TopicName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_topics"
+        android:text="@string/topic_launch_site"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/launchDateInfoTv" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/launchSiteInfoTv"
+        style="@style/Text.TopicInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_topic_info"
+        android:text="@string/info_launch_site"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/launchSiteTopicTv" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/countDownTopicTv"
+        style="@style/Text.TopicName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_topics"
+        android:text="@string/topic_count_down"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/launchSiteInfoTv" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/countDownInfoTv"
+        style="@style/Text.TopicInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_topic_info"
+        android:text="@string/info_count_down"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/countDownTopicTv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
